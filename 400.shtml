@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head><meta charset="utf-8">
+        
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <meta name="csrf-token" content="{{ csrf_token() }}">
+
+        <title>400 | GOPA Bad Request</title>
+        <!-- Favicon -->
+        <link href="https://gopa.koonek.net/public/argon/img/brand/favicon2.png" rel="icon" type="image/png">
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+        <!-- Extra details for Live View on GitHub Pages -->
+
+        <!-- Icons -->
+        <link href="https://gopa.koonek.net/public/argon/vendor/nucleo/css/nucleo.css" rel="stylesheet">
+        <link href="https://gopa.koonek.net/public/argon/vendor/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+        <link href="https://gopa.koonek.net/public/argon/vendor/fontawesome/all.min.css" rel="stylesheet">
+        <link href="https://gopa.koonek.net/public/argon/vendor/fontawesome/brands.css" rel="stylesheet">
+        <link href="https://gopa.koonek.net/public/argon/vendor/fontawesome/solid.css" rel="stylesheet">
+        
+        <!-- Argon CSS -->
+        <link type="text/css" href="https://gopa.koonek.net/public/argon/css/argon.css?v=1.0.0" rel="stylesheet">
+    </head>
+    <body class="{{ $class ?? '' }}">
+            <div class="header bg-gradient-primary py-7 py-lg-8">
+        <div class="container">
+            <div class="header-body text-center mt-7 mb-7">
+                <div class="row justify-content-center">
+                    <div class="col-lg-5 col-md-6 mr-4 ml-4 mt--5">
+                        <h1 class="text-white"><i class="fas fa-exlposion fa-3x text-white mb-4"></i></h1>
+                        <h1 class="text-white mb-4">400 | BAD REQUEST</h1>
+                        <p class="text-white">The request could not be understood by the server due to malformed syntax. The client should not repeat the request without modifications. <i class="fa-solid fa-face-smile"></i></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="separator separator-bottom separator-skew zindex-100">
+            <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                <polygon class="fill-default" points="2560 0 2560 100 0 100"></polygon>
+            </svg>
+        </div>
+    </div>
+        <script src="https://gopa.koonek.net/public/argon/vendor/jquery/dist/jquery.min.js"></script>
+        <script src="https://gopa.koonek.net/public/argon/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+                
+        <!-- Argon JS -->
+        <script src="https://gopa.koonek.net/public/argon/js/argon.js?v=1.0.0"></script>
+        
+        <!--fontawesome  -->
+        <script src="https://gopa.koonek.net/public/argon/vendor/fontawesome/all.min.js"></script>
+
+    </body>
+</html>
